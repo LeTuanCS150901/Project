@@ -333,8 +333,6 @@ legend("topleft", legend = c("Estimated", "Actual"), col = c("blue", "orange"), 
 
 
 
-
-
 ################
 
 ############################# create shiny app - Oussou tasks

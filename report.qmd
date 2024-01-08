@@ -2,7 +2,7 @@
 title: "report"
 author: 
   - "NGUYEN Tran Le Tuan (Student ID: 281308)"
-  - "Ousseini Mounkaila (Student ID: XXX)"
+  - "Ousseini Mounkaila (Student ID: 280501)"
   - "Class: M2-SIA"
   - "University: Gustave Eiffel, France"
 date: "01/01/2024"
@@ -631,7 +631,7 @@ legend("topleft", legend = c("Estimated", "Actual"), col = c("blue", "orange"), 
 
 ```
 
-In @fig-forecase, the 80% prediction interval are the blue shaded area, while the 95% prediction interval are the grey area. It can be seen that railway network’s ridership trend expect to have around 900-1500 validations per day as it approaches to the last 6 months of 2024.
+In @fig-forecast, the 80% prediction interval are the blue shaded area, while the 95% prediction interval are the grey area. It can be seen that railway network’s ridership trend expect to have around 900-1500 validations per day as it approaches to the last 6 months of 2024.
 
 ## 5. Conclusion
 
