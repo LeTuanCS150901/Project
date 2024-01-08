@@ -1,0 +1,18 @@
+- Add anh mo ta cac bien: ok
+- voi moi data, cite nguon: ok
+- cite section xxx: yes
+- o hinh holiday impact on line, viet ra nhan dinh cua minh: yes
+
+I have a time series data of ridership of number of validation on the train stations from 2017-2023 years. Here is the key findings I found:
+From 2017-2023: the number of validaition are high
+From 2020-2021: the number of validation drops significantly
+From 2021-2023: it rise gradually
+In 2017, there is a lot of outliers on first, second, third and sixth months
+in every year, on August, the number of validations is mostly lowest
+the holidays data are mostly from the seven, eight months, the last period of december, first period of january, end and beginning between April and May.
+
+Requirements:
+Apply appropriate simple statistical methods to validate findings and draw meaningful insights from the data.
+Use statistical tests to assess the significance of observed variations, when possible
+
+What i need to do now in R for the requirements with my key findings?

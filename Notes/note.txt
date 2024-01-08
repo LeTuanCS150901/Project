@@ -1,0 +1,77 @@
+useful link:
+https://data.iledefrance-mobilites.fr/explore/dataset/zones-de-correspondance/table/?disjunctive.zdctype
+https://prim.iledefrance-mobilites.fr/en/jeux-de-donnees/zones-de-correspondance
+
+Ridership data là dữ liệu về số lượng hành khách sử dụng phương tiện giao thông công cộng. Dữ liệu này có thể được thu thập theo nhiều cách khác nhau, chẳng hạn như:
+
+Sử dụng thẻ vé điện tử, thẻ thông minh, hoặc thẻ thanh toán không tiếp xúc.
+Sử dụng camera giám sát hoặc hệ thống nhận dạng khuôn mặt.
+Đếm số lượng hành khách lên xuống phương tiện giao thông công cộng tại các điểm dừng hoặc ga.
+Dữ liệu ridership có thể được sử dụng cho nhiều mục đích khác nhau, chẳng hạn như:
+
+Đánh giá hiệu quả của hệ thống giao thông công cộng.
+Xác định nhu cầu của hành khách đối với phương tiện giao thông công cộng.
+Lập kế hoạch phát triển hệ thống giao thông công cộng.
+Dữ liệu ridership là một nguồn thông tin quan trọng đối với các nhà hoạch định và quản lý giao thông công cộng. Dữ liệu này giúp họ hiểu rõ hơn về nhu cầu của hành khách và từ đó đưa ra các quyết định sáng suốt để cải thiện hệ thống giao thông công cộng.
+
+Trong tiếng Việt, ridership data có thể được gọi là dữ liệu sử dụng phương tiện giao thông công cộng
+
+tich hop 2 dataset
+va sort date tu 2017
+
+1 file format tung ngay validate
+1 file la cu the tung gio trong ngay
+
+
+2 bo data
+vi tri dia ly cua diem dung (stop point)
+du lieu quet the cua diem dung (stop point)
+
+detail hon:
+Validations on the rail network: Number of validations per day (đường ray network)
+
+ID_REFA_LDA: STIF reference stop identifier: id cua diem dung cua bang validation, map toi bang stop point location
+ZdCld: id cua diem dung cua bang stop points location
+
+
+
+example:
+Name: Noisy le grand mondest: 
+Type: railway (tuc la chi co duong ray)
+
+Name:  Gare dy lyon
+Type: onstreetBus (tuc la co bus noi ngay voi ga)
+
+
+objective: danh gia NB validation vi day la bien target
+
+
+Mot vai danh gia of monthly trend:
+-Tu nam 17-19 nhin chung co so luong validation hang thang tuong doi cao hon so voi 
+nam 20-22
+
+- Dac biet, 2020, thang 4 co validation cuc it
+
+- Tu nam 2017-2022, thang 8 co so luong validation tuong doi
+thap so voi cac thang con lai
+
+- trong first period cua 2023, cac thang co so luong tuong validation deu nhau
+
+- 2017 la nam co luong validate nhieu nhat 
+
+
+
+ during holiday and non-holiday periods.
+
+Define a baseline “normal” week and investigate deviations during holiday and non-holiday periods.
+tao 1 cot gan nhan 1-0 holiday o france
+holiday = vacation, school break
+
+neu data co nhieu outlier => transform to log scale
+
+
+
+flter trung toa do sao cho
+co zda la moi nhat
+
+sau do filter name
